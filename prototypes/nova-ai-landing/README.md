@@ -4,6 +4,8 @@ Static implementation of the **Nova AI Landing** blueprint using Pico.css, Table
 
 ## Preview
 
+![Nova AI preview](preview.png)
+
 Open `index.html` in your browser (double-click or serve via a simple HTTP server, e.g. `npx serve .`) to explore:
 
 - Hero split layout with conversational AI preview card
