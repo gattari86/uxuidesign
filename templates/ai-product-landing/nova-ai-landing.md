@@ -2,6 +2,8 @@
 
 High-impact hero layout inspired by 2025 AI SaaS showcases featuring luminous gradients, floating UI previews, and conversational call-to-actions.
 
+**Prototype:** `prototypes/nova-ai-landing/index.html` (Pico.css + Tabler Icons implementation)
+
 ## Inspiration Highlights
 - Gradient-drenched hero blocks with soft neon glows (seen across recent AI copilots and automation suites).
 - Split-screen storytelling that pairs marketing copy with live prompt builders or workflows.

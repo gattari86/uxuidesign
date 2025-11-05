@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nova AI – Ship Better Answers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero container">
+      <nav class="top-nav">
+        <a href="#" class="brand">
+          <span class="brand-mark">Nova</span>
+          <span class="brand-dot"></span>
+        </a>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#usecases">Use cases</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#security">Security</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="secondary outline" href="#login">Log in</a>
+          <a class="primary" href="#start">Start free trial</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">AI Workspace 2.0</span>
+          <h1>Ship better answers in minutes, not weeks.</h1>
+          <p>
+            Nova coordinates knowledge, prompts, and stakeholders so your team delivers consistent,
+            accurate responses every time.
+          </p>
+          <div class="cta-group">
+            <a class="primary" href="#start">Start free trial</a>
+            <button class="ghost video-trigger" type="button">
+              <i class="ti ti-player-play-filled" aria-hidden="true"></i>
+              Watch 90s demo
+            </button>
+          </div>
+          <div class="trust">
+            <img src="assets/logo-grid.svg" alt="Trusted customer logos" />
+            <p><strong>2,400+</strong> teams automate workflows with Nova.</p>
+          </div>
+        </div>
+        <aside class="hero-preview">
+          <div class="prompt-chips">
+            <button class="chip active" type="button">Support</button>
+            <button class="chip" type="button">Sales</button>
+            <button class="chip" type="button">Product</button>
+            <button class="chip" type="button">Ops</button>
+          </div>
+          <div class="prompt-card">
+            <div class="prompt-input">
+              <label for="prompt">Prompt</label>
+              <textarea id="prompt" rows="3" aria-label="Prompt example">
+Draft a launch announcement for our new analytics copilot focusing on speed-to-insight.</textarea
+              >
+            </div>
+            <div class="response-card">
+              <header>
+                <span class="badge success">Nova response</span>
+                <span class="confidence">
+                  <i class="ti ti-sparkles" aria-hidden="true"></i> High confidence
+                </span>
+              </header>
+              <p>
+                Absolutely! Here’s a launch announcement that highlights instant anomaly detection,
+                workspace collaboration, and compliance-ready audit trails. It’s formatted for email,
+                LinkedIn, and in-app banners.
+              </p>
+              <ul>
+                <li>3 launch-ready drafts across channels</li>
+                <li>Links to enablement resources for CSMs</li>
+                <li>CTA variants optimized for activation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="badge-stack">
+            <span class="badge outline">
+              <i class="ti ti-lock-check" aria-hidden="true"></i> SOC 2 Type II
+            </span>
+            <span class="badge outline">
+              <i class="ti ti-shield-star" aria-hidden="true"></i> Enterprise SSO
+            </span>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section id="features" class="container feature-grid">
+        <article>
+          <span class="icon">
+            <i class="ti ti-bolt"></i>
+          </span>
+          <h3>Faster orchestration</h3>
+          <p>
+            Automate intake, routing, and approvals so subject-matter experts focus on high-impact
+            decisions.
+          </p>
+        </article>
+        <article>
+          <span class="icon">
+            <i class="ti ti-shield-check"></i>
+          </span>
+          <h3>Policy aware</h3>
+          <p>
+            Nova enforces guardrails with every answer, referencing your knowledge base,
+            integrations, and redlines.
+          </p>
+        </article>
+        <article>
+          <span class="icon">
+            <i class="ti ti-users-group"></i>
+          </span>
+          <h3>Built for collaboration</h3>
+          <p>
+            Shared workspaces keep product, legal, and GTM aligned with real-time reviews,
+            comments, and AI co-editing.
+          </p>
+        </article>
+      </section>
+
+      <section class="container prompt-builder">
+        <header>
+          <h2>Design flows with natural language.</h2>
+          <p>
+            Compose multi-step automations, test variations, and deploy to every team without
+            writing code.
+          </p>
+        </header>
+        <div class="prompt-layout">
+          <div class="builder">
+            <div class="step">
+              <span class="step-index">1</span>
+              <div>
+                <h4>Collect signal</h4>
+                <p>Ingest tickets, CRM notes, and knowledge base articles into Nova’s workspace.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-index">2</span>
+              <div>
+                <h4>Generate narrative</h4>
+                <p>Apply your tone guidelines, product hierarchy, and audience persona.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-index">3</span>
+              <div>
+                <h4>Deliver consistency</h4>
+                <p>Route draft to reviewers, publish to channels, log outcomes for continuous tuning.</p>
+              </div>
+            </div>
+          </div>
+          <aside class="preview">
+            <div class="preview-header">
+              <span class="badge outline">
+                <i class="ti ti-robot" aria-hidden="true"></i> Workflow preview
+              </span>
+              <button class="ghost small" type="button">
+                <i class="ti ti-settings" aria-hidden="true"></i> Adjust prompt
+              </button>
+            </div>
+            <div class="preview-body">
+              <p class="preview-title">Launch campaign · AI generated brief</p>
+              <p>
+                Goal: Drive 5,000 demo bookings in Q1.<br />
+                Audience: Mid-market GTM leaders.<br />
+                Channels: Email nurture, in-product banner, LinkedIn thought leadership.
+              </p>
+              <p class="preview-meta">
+                <i class="ti ti-link" aria-hidden="true"></i>
+                Connected systems: HubSpot, Salesforce, Linear, Notion
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="usecases" class="usecase-carousel">
+        <div class="container carousel-wrapper">
+          <header>
+            <h2>Purpose-built playbooks for every team.</h2>
+            <p>
+              Choose from our library or craft your own. Nova adapts to the channels, data, and
+              compliance needs of each function.
+            </p>
+          </header>
+          <div class="carousel">
+            <article class="usecase-card">
+              <h3>Customer Support</h3>
+              <p>Resolve complex tickets with contextual responses and knowledge citations.</p>
+              <ul>
+                <li>Zendesk + Intercom integrations</li>
+                <li>Escalation guardrails</li>
+                <li>Auto QA scoring</li>
+              </ul>
+            </article>
+            <article class="usecase-card">
+              <h3>Sales Enablement</h3>
+              <p>Auto-generate account briefs, competitive intel, and tailored outreach sequences.</p>
+              <ul>
+                <li>CRM enrichment</li>
+                <li>Persona-aware messaging</li>
+                <li>Real-time objection handling</li>
+              </ul>
+            </article>
+            <article class="usecase-card">
+              <h3>Product Ops</h3>
+              <p>Summarize voice-of-customer feedback and prioritize roadmap decisions.</p>
+              <ul>
+                <li>Linear + Jira syncing</li>
+                <li>Sentiment scoring</li>
+                <li>Executive-ready summaries</li>
+              </ul>
+            </article>
+            <article class="usecase-card">
+              <h3>Revenue Operations</h3>
+              <p>Automate renewals, forecast accuracy, and pipeline health reviews.</p>
+              <ul>
+                <li>Multi-CRM support</li>
+                <li>Playbook automation</li>
+                <li>Stakeholder alerts</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="security" class="container social-proof">
+        <header>
+          <h2>Trusted and secure from day zero.</h2>
+          <p>
+            Enterprise-grade security, compliance, and audit trails to protect your data and meet
+            your customers’ expectations.
+          </p>
+        </header>
+        <div class="proof-cards">
+          <article>
+            <span class="badge outline">
+              <i class="ti ti-lock-check" aria-hidden="true"></i> Compliance
+            </span>
+            <h3>Certified defense in depth</h3>
+            <p>SOC 2 Type II, ISO 27001, GDPR-ready, data residency controls.</p>
+          </article>
+          <article>
+            <span class="badge outline">
+              <i class="ti ti-api" aria-hidden="true"></i> Integrations
+            </span>
+            <h3>Purpose-built connectors</h3>
+            <p>Connect Nova to your CRM, ticketing system, knowledge base, and security stack.</p>
+          </article>
+          <article>
+            <span class="badge outline">
+              <i class="ti ti-chart-donut" aria-hidden="true"></i> Outcomes
+            </span>
+            <h3>Results you can prove</h3>
+            <p>47% faster SLA resolution, 32% higher win rates, 18 pt. boost in CSAT.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="container pricing">
+        <header>
+          <h2>Choose a plan that scales with your team.</h2>
+          <p>Switch between monthly and annual anytime.</p>
+          <div class="billing-toggle">
+            <label class="switch">
+              <input type="checkbox" id="billingSwitch" />
+              <span class="slider">
+                <span class="label monthly">Monthly</span>
+                <span class="label annual">Annual · save 20%</span>
+              </span>
+            </label>
+          </div>
+        </header>
+        <div class="pricing-cards">
+          <article class="pricing-card">
+            <span class="badge outline">Starter</span>
+            <h3>$89<span>/seat</span></h3>
+            <p>Launch AI workflows for fast-moving teams.</p>
+            <ul>
+              <li>Up to 10 workspaces</li>
+              <li>Knowledge sync (Notion, Confluence)</li>
+              <li>Collaborative reviews</li>
+            </ul>
+            <a class="primary outline" href="#start">Start free</a>
+          </article>
+          <article class="pricing-card featured">
+            <span class="badge success">Most popular</span>
+            <h3>$149<span>/seat</span></h3>
+            <p>Advanced governance and cross-functional automation.</p>
+            <ul>
+              <li>Unlimited workspaces</li>
+              <li>Enterprise SSO + SCIM</li>
+              <li>AI guardrails &amp; policy manager</li>
+            </ul>
+            <a class="primary" href="#start">Request demo</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <span class="brand-mark">Nova</span>
+          <p>Coordinating human expertise and AI precision for every customer moment.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="ti ti-brand-x"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ti ti-brand-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#usecases">Use cases</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#security">Security</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Customer stories</a></li>
+            <li><a href="#">Prompt library</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stay in the loop</h4>
+          <form>
+            <label for="email" class="sr-only">Email</label>
+            <input id="email" type="email" placeholder="work@email.com" required />
+            <button class="primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-note">
+        <p>© 2025 Nova Intelligence. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const switchEl = document.getElementById("billingSwitch");
+      const priceCards = document.querySelectorAll(".pricing-card h3");
+
+      const monthlyPrices = [89, 149];
+      const annualPrices = [79, 129];
+
+      function updatePrices(isAnnual) {
+        priceCards.forEach((card, index) => {
+          const value = isAnnual ? annualPrices[index] : monthlyPrices[index];
+          card.innerHTML = `$${value}<span>/seat</span>`;
+        });
+      }
+
+      switchEl?.addEventListener("change", (event) => {
+        updatePrices(event.target.checked);
+      });
+    </script>
+  </body>
+</html>
