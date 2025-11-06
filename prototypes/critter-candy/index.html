@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Critter Candy | Artisanal Animal-Shaped Candies</title>
+  <meta name="description" content="Discover delightful animal-shaped candies crafted with love. Every critter tells a flavor story.">
+
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="top-nav">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand">
+        <span class="brand-mark">🐻</span>
+        <span class="brand-name">Critter Candy</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#quiz">Flavor Quiz</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#shop">Shop</a></li>
+      </ul>
+      <div class="nav-cta">
+        <button class="ghost"><i class="ti ti-heart"></i></button>
+        <button class="secondary">
+          <i class="ti ti-shopping-bag"></i>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-habitat">
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <span class="badge new-badge">
+          <i class="ti ti-sparkles"></i>
+          New: Arctic Collection
+        </span>
+        <h1 class="hero-title">Every Critter Tells a Flavor Story</h1>
+        <p class="hero-subtitle">Handcrafted animal-shaped candies that bring joy to every bite. Discover your perfect creature companion.</p>
+        <div class="cta-group">
+          <button class="primary">
+            <i class="ti ti-compass"></i>
+            Start Your Safari
+          </button>
+          <button class="ghost">
+            <i class="ti ti-gift"></i>
+            Build a Gift Box
+          </button>
+        </div>
+      </div>
+      <div class="hero-creatures">
+        <div class="creature-float bear">
+          <div class="creature-card">
+            <span class="creature-emoji">🐻</span>
+            <span class="flavor-tag">Maple Caramel</span>
+          </div>
+        </div>
+        <div class="creature-float dolphin">
+          <div class="creature-card">
+            <span class="creature-emoji">🐬</span>
+            <span class="flavor-tag">Blue Raspberry</span>
+          </div>
+        </div>
+        <div class="creature-float lion">
+          <div class="creature-card">
+            <span class="creature-emoji">🦁</span>
+            <span class="flavor-tag">Mango Honey</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habitat Collections -->
+  <section id="collections" class="habitat-collections">
+    <div class="container">
+      <header class="section-header">
+        <h2>Explore by Habitat</h2>
+        <p>Each collection features unique creatures with flavors inspired by their natural homes</p>
+      </header>
+
+      <div class="habitat-grid">
+        <article class="habitat-card woodland">
+          <div class="habitat-bg"></div>
+          <div class="habitat-content">
+            <span class="habitat-icon">🌲</span>
+            <h3>Woodland Wonders</h3>
+            <p>Bears, foxes, and bunnies in caramel, maple, and berry flavors</p>
+            <span class="creature-count">12 Creatures</span>
+            <button class="secondary">Explore Collection</button>
+          </div>
+        </article>
+
+        <article class="habitat-card ocean">
+          <div class="habitat-bg"></div>
+          <div class="habitat-content">
+            <span class="habitat-icon">🌊</span>
+            <h3>Ocean Odyssey</h3>
+            <p>Dolphins, turtles, and jellyfish in blue raspberry, sea salt, and citrus</p>
+            <span class="creature-count">10 Creatures</span>
+            <button class="secondary">Explore Collection</button>
+          </div>
+        </article>
+
+        <article class="habitat-card safari">
+          <div class="habitat-bg"></div>
+          <div class="habitat-content">
+            <span class="habitat-icon">🦁</span>
+            <h3>Safari Sweets</h3>
+            <p>Lions, elephants, and giraffes in mango, passion fruit, and honey</p>
+            <span class="creature-count">14 Creatures</span>
+            <button class="secondary">Explore Collection</button>
+          </div>
+        </article>
+
+        <article class="habitat-card tropical">
+          <div class="habitat-bg"></div>
+          <div class="habitat-content">
+            <span class="habitat-icon">🌺</span>
+            <h3>Tropical Paradise</h3>
+            <p>Parrots, monkeys, and toucans in pineapple, coconut, and guava</p>
+            <span class="creature-count">11 Creatures</span>
+            <button class="secondary">Explore Collection</button>
+          </div>
+        </article>
+
+        <article class="habitat-card arctic">
+          <div class="habitat-bg"></div>
+          <div class="habitat-content">
+            <span class="habitat-icon">❄️</span>
+            <h3>Arctic Adventures</h3>
+            <p>Polar bears, penguins, and seals in peppermint, vanilla, and winterberry</p>
+            <span class="creature-count badge new-badge">New Collection!</span>
+            <button class="primary">Explore Collection</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flavor Safari Quiz -->
+  <section id="quiz" class="flavor-safari">
+    <div class="container">
+      <div class="quiz-wrapper">
+        <header class="quiz-header">
+          <h2>Find Your Flavor Match</h2>
+          <p>Take our quick quiz to discover your perfect critter companion</p>
+        </header>
+
+        <div class="quiz-container">
+          <div class="quiz-step active" data-step="1">
+            <p class="quiz-question">What's your flavor personality?</p>
+            <div class="quiz-options">
+              <button class="quiz-option" data-trait="sweet">
+                <span class="option-icon">🍬</span>
+                <span class="option-label">Sweet & Fruity</span>
+              </button>
+              <button class="quiz-option" data-trait="sour">
+                <span class="option-icon">🍋</span>
+                <span class="option-label">Sour & Tangy</span>
+              </button>
+              <button class="quiz-option" data-trait="rich">
+                <span class="option-icon">🍫</span>
+                <span class="option-label">Rich & Decadent</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="quiz-step" data-step="2">
+            <p class="quiz-question">Which habitat calls to you?</p>
+            <div class="quiz-options">
+              <button class="quiz-option" data-habitat="woodland">
+                <span class="option-icon">🌲</span>
+                <span class="option-label">Forest</span>
+              </button>
+              <button class="quiz-option" data-habitat="ocean">
+                <span class="option-icon">🌊</span>
+                <span class="option-label">Ocean</span>
+              </button>
+              <button class="quiz-option" data-habitat="safari">
+                <span class="option-icon">🦁</span>
+                <span class="option-label">Savanna</span>
+              </button>
+              <button class="quiz-option" data-habitat="tropical">
+                <span class="option-icon">🌺</span>
+                <span class="option-label">Jungle</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="quiz-results hidden">
+            <div class="result-card">
+              <h3>Your Perfect Match!</h3>
+              <div class="matched-creature">
+                <span class="result-emoji">🐻</span>
+                <h4 class="result-name">Maple Bear</h4>
+                <p class="result-flavor">Rich maple caramel with a hint of vanilla</p>
+                <p class="result-description">Like you, the Maple Bear is warm, comforting, and brings sweetness to everyone around.</p>
+              </div>
+              <div class="result-actions">
+                <button class="primary">Add to Cart</button>
+                <button class="ghost">Take Quiz Again</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Creatures -->
+  <section id="shop" class="featured-creatures">
+    <div class="container">
+      <header class="section-header">
+        <h2>Bestselling Critters</h2>
+        <p>Our most loved candy companions</p>
+      </header>
+
+      <div class="creatures-grid">
+        <article class="creature-product">
+          <div class="product-image">
+            <div class="product-placeholder">🐻</div>
+            <button class="wishlist-btn">
+              <i class="ti ti-heart"></i>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-habitat">Woodland</span>
+            <h3>Maple Bear</h3>
+            <p class="product-flavor">Rich maple caramel</p>
+            <div class="product-meta">
+              <span class="product-price">$3.50</span>
+              <span class="product-rating">
+                <i class="ti ti-star-filled"></i>
+                4.9 (127)
+              </span>
+            </div>
+            <button class="secondary add-to-cart">
+              <i class="ti ti-shopping-bag"></i>
+              Add to Bag
+            </button>
+          </div>
+        </article>
+
+        <article class="creature-product">
+          <div class="product-image">
+            <div class="product-placeholder">🐬</div>
+            <button class="wishlist-btn">
+              <i class="ti ti-heart"></i>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-habitat ocean">Ocean</span>
+            <h3>Blue Dolphin</h3>
+            <p class="product-flavor">Blue raspberry with sea salt</p>
+            <div class="product-meta">
+              <span class="product-price">$3.50</span>
+              <span class="product-rating">
+                <i class="ti ti-star-filled"></i>
+                4.8 (93)
+              </span>
+            </div>
+            <button class="secondary add-to-cart">
+              <i class="ti ti-shopping-bag"></i>
+              Add to Bag
+            </button>
+          </div>
+        </article>
+
+        <article class="creature-product">
+          <div class="product-image">
+            <div class="product-placeholder">🦁</div>
+            <button class="wishlist-btn">
+              <i class="ti ti-heart"></i>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-habitat safari">Safari</span>
+            <h3>Sunny Lion</h3>
+            <p class="product-flavor">Mango honey blend</p>
+            <div class="product-meta">
+              <span class="product-price">$3.50</span>
+              <span class="product-rating">
+                <i class="ti ti-star-filled"></i>
+                5.0 (156)
+              </span>
+            </div>
+            <button class="secondary add-to-cart">
+              <i class="ti ti-shopping-bag"></i>
+              Add to Bag
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Crafting Story -->
+  <section id="story" class="crafting-story">
+    <div class="container">
+      <header class="section-header">
+        <h2>From Sketch to Sweet</h2>
+        <p>Every critter is crafted with care and creativity</p>
+      </header>
+
+      <div class="story-timeline">
+        <div class="timeline-step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Concept & Design</h3>
+            <p>Our artists sketch each creature with personality and charm</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Flavor Development</h3>
+            <p>We test dozens of recipes to find the perfect taste for each animal</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Candy Sculpting</h3>
+            <p>Master confectioners bring each critter to life in three dimensions</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Quality Check</h3>
+            <p>Every batch is tasted and inspected to ensure critter perfection</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-signup">
+    <div class="container">
+      <div class="newsletter-card">
+        <h2>Join the Critter Club</h2>
+        <p>Get exclusive flavors, early access to new collections, and sweet surprises</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="primary">
+            <i class="ti ti-send"></i>
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-column">
+        <div class="footer-brand">
+          <span class="brand-mark">🐻</span>
+          <span class="brand-name">Critter Candy</span>
+        </div>
+        <p>Handcrafted animal-shaped candies that bring joy to every bite.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">All Collections</a></li>
+          <li><a href="#">Bestsellers</a></li>
+          <li><a href="#">Gift Boxes</a></li>
+          <li><a href="#">Wholesale</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Store Locator</a></li>
+          <li><a href="#">Allergen Info</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2025 Critter Candy. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+        <a href="#" aria-label="TikTok"><i class="ti ti-brand-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
